@@ -316,7 +316,7 @@ const renderAboutMe = () => {
                 </div>
                 <div class="about-personal-info">
                     <h3>Julio Villacís</h3>
-                    <p>ABOGADO & EXPERTO EN LOGÍSTICA MIGRATORIA</p>
+                    <p>ABOGADO & COORDINADOR EN LOGÍSTICA MIGRATORIA</p>
                 </div>
                 <div class="about-timeline">
                     <div class="timeline-item">
