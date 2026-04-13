@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikundi | Asesoría Migratoria</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Toast Notifications (Social Proof) -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <div class="main-frame">
+        <!-- Share Button -->
+        <button id="share-btn" class="share-floating-btn" aria-label="Compartir enlace">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                <polyline points="16 6 12 2 8 6" />
+                <line x1="12" y1="2" x2="12" y2="15" />
+            </svg>
+        </button>
+
+        <!-- Hero Section con integración de imagen -->
+        <div class="hero">
+            <img src="vikundi-profile.jpg" alt="Andrés Espín y Carlos Julio Villacís" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Header Info -->
+        <header class="profile-header">
+            <h1>Vikundi</h1>
+            <div class="tagline">Asesoría Migratoria</div>
+
+            <div class="founder-bio">
+                <strong>Andrés Espín</strong> & <strong>Julio Villacís</strong>
+                Fundadores de Vikundi. Un equipo que combina soluciones legales con la experiencia real de recorrer el
+                mundo y la asesoría personalizada para hacerlo.
+            </div>
+
+            <div class="about-section">
+                <!-- Banner Biográfico -->
+                <div class="about-banner" id="open-about">
+                    <span class="banner-text">La historia detrás de Vikundi</span>
+                    <div class="banner-arrow">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Bar (Reubicada) -->
+            <div class="social-bar">
+                <a href="https://wa.me/593969084030" class="social-link whatsapp" title="WhatsApp" target="_blank">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.985c-.001 5.45-4.436 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.396.014 12.032c0 2.122.553 4.197 1.597 6.056L0 24l6.105-1.602a11.832 11.832 0 005.937 1.596h.005c6.637 0 12.032-5.396 12.037-12.032.002-3.218-1.248-6.242-3.517-8.512z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link tiktok" title="TikTok">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                    </svg>
+                </a>
+                <a href="#" class="social-link facebook" title="Facebook">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="social-link instagram" title="Instagram">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-link youtube" title="YouTube">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.14 1 12 1 12s0 3.86.46 5.58a2.78 2.78 0 0 0 1.94 2c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.86 23 12 23 12s0-3.86-.46-5.58z">
+                        </path>
+                        <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <!-- Links Container -->
+        <main class="links-container">
+            <p class="section-label">Especializados en:</p>
+            <div class="link-item" data-service="1">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        <path d="m9 12 2 2 4-4" />
+                    </svg>
+                </div>
+                <div class="link-text">
+                    <span class="link-label">Servicios Jurídicos y Migratorios</span>
+                    <span class="link-description">Movilidad internacional y representación legal.</span>
+                </div>
+                <div class="link-chevron">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="link-item" data-service="2">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.3c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z" />
+                    </svg>
+                </div>
+                <div class="link-text">
+                    <span class="link-label">Servicios de Viaje y Logística</span>
+                    <span class="link-description">Tickets Aeros, Marítimos y Terrestres.</span>
+                </div>
+                <div class="link-chevron">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="link-item" data-service="3">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 7V21l7-3 7 3 4-3V4l-4 3-7-3L3 7z" />
+                        <line x1="10" y1="4" x2="10" y2="18" />
+                        <line x1="17" y1="7" x2="17" y2="21" />
+                    </svg>
+                </div>
+                <div class="link-text">
+                    <span class="link-label">Servicios Vikundi</span>
+                    <span class="link-description">Asesoramiento Integral Personalizado para Viajar.</span>
+                </div>
+                <div class="link-chevron">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Testimonials Carousel -->
+            <div class="testimonials-section">
+                <p class="section-label">Opiniones de nuestros clientes</p>
+                <div class="carousel-container" id="testimonial-carousel">
+                    <div class="carousel-track">
+                        <div class="testimonial-card slide active">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">"Excelente servicio. Mi visa fue aprobada en tiempo récord
+                                gracias a la asesoría de Vikundi."</p>
+                            <p class="testimonial-author">María P. — Estudiante</p>
+                        </div>
+                        <div class="testimonial-card slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">"La atención de Andrés fue clave para mi viaje. Son muy
+                                profesionales y transparentes."</p>
+                            <p class="testimonial-author">Juan D. — Empresario</p>
+                        </div>
+                        <div class="testimonial-card slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">"Vikundi me dio la tranquilidad que necesitaba para mi movilidad
+                                laboral. Altamente recomendados."</p>
+                            <p class="testimonial-author">Carlos R. — Migrante Laboral</p>
+                        </div>
+                        <div class="testimonial-card slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="testimonial-text">"Andrés me ayudó con mi proceso de asilo en Canadá. Se siente el
+                                compromiso y la honestidad. ¡Gracias!"</p>
+                            <p class="testimonial-author">Elena M. — Asesoría Internacional</p>
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer class="main-footer">
+                <img src="Logo_white.png" alt="Vikundi Logo" class="footer-logo">
+                <p>&copy; 2026 Vikundi. Todos los derechos reservados.</p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Services Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal" aria-label="Volver">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+            </button>
+
+            <div id="modal-body-content">
+                <!-- Contenido dinámico via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky CTA Bar -->
+    <div class="sticky-cta-bar">
+        <button id="open-agenda-info" class="sticky-btn primary">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span> Agendar Cita</span>
+        </button>
+        <a href="https://wa.me/593969084030" target="_blank" class="sticky-btn secondary">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.985c-.001 5.45-4.436 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.396.014 12.032c0 2.122.553 4.197 1.597 6.056L0 24l6.105-1.602a11.832 11.832 0 005.937 1.596h.005c6.637 0 12.032-5.396 12.037-12.032.002-3.218-1.248-6.242-3.517-8.512z" />
+            </svg>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Agenda Filter Modal (Pre-Qualify) -->
+    <div class="modal-overlay" id="agenda-info-overlay">
+        <div class="modal-content agenda-modal">
+            <button class="close-btn" id="close-agenda-info" aria-label="Cerrar">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="agenda-header">
+                <div class="agenda-icon-main">
+                    <svg viewBox="0 0 24 24" width="44" height="44" stroke="#1e3a8a" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                </div>
+                <h2>Asegura el Éxito de tu Proceso</h2>
+                <p>Al agendar, obtienes una visión experta y honesta para que tu inversión y tiempo estén protegidos.
+                </p>
+            </div>
+
+            <div class="agenda-rules">
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="rule-text">
+                        <strong>Estrategia Personalizada</strong>
+                        <p>Analizamos tu perfil para trazar la hoja de ruta legal más eficiente según tus metas.</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <div class="rule-text">
+                        <strong>Transparencia Total</strong>
+                        <p>Inversión base de $120 USD. Si tu caso no es viable, te lo diremos de inmediato.</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="rule-text">
+                        <strong>Respaldo Global</strong>
+                        <p>Nuestra experiencia en más de 35 países avala cada recomendación que te daremos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agenda-footer">
+                <p class="agenda-disclaimer">¿Estás de acuerdo con los términos y presupuesto base?</p>
+                <p class="agenda-email-note">Una vez seleccionada la fecha y hora le enviaremos un correo de
+                    confirmación.</p>
+                <a href="https://calendar.app.google/Sz7UAYsumTn81sCz6" target="_blank" class="confirm-agenda-btn">
+                    Sí, deseo agendar mi cita
+                </a>
+                <button id="cancel-agenda-btn" class="cancel-agenda-btn">
+                    No gracias, deseo seguir explorando
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
