@@ -255,12 +255,20 @@ const renderAboutMe = () => {
                         <div class="founder-slide"><img src="Slider_andres/foto1.jpeg" alt="Andrés Espín 2"></div>
                         <div class="founder-slide"><img src="Slider_andres/foto3.jpeg" alt="Andrés Espín 3"></div>
                         <div class="founder-slide"><img src="Slider_andres/foto4.jpeg" alt="Andrés Espín 4"></div>
-                        <div class="founder-slide"><img src="Slider_andres/fondo2.jpeg" alt="Andrés Espín 5"></div>
-                        <div class="founder-slide"><img src="Slider_andres/fondo5.jpeg" alt="Andrés Espín 6"></div>
-                        <div class="founder-slide"><img src="Slider_andres/fondo6.jpeg" alt="Andrés Espín 7"></div>
+                        <div class="founder-slide"><img src="Slider_andres/foto12.jpeg" alt="Andrés Espín 5"></div>
+                        <div class="founder-slide"><img src="Slider_andres/foto22.jpeg" alt="Andrés Espín 6"></div>
+                        <div class="founder-slide"><img src="Slider_andres/fondo2.jpeg" alt="Andrés Espín 7"></div>
+                        <div class="founder-slide"><img src="Slider_andres/fondo5.jpeg" alt="Andrés Espín 8"></div>
+                        <div class="founder-slide"><img src="Slider_andres/fondo6.jpeg" alt="Andrés Espín 9"></div>
+                        <div class="founder-slide"><img src="Slider_andres/fondo8.jpeg" alt="Andrés Espín 10"></div>
+                        <div class="founder-slide"><img src="Slider_andres/fondo9.jpeg" alt="Andrés Espín 11"></div>
                     </div>
                     <div class="slider-dots" id="dots-andres">
                         <span class="slider-dot active"></span>
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
                         <span class="slider-dot"></span>
                         <span class="slider-dot"></span>
                         <span class="slider-dot"></span>
